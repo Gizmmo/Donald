@@ -8,7 +8,10 @@ window.states.playState = {
 		Phaser = window.Phaser || {};
 	},
 
-	create: function() {},
+	create: function() {
+		console.log(game.objects.add.player);
+		this.player = game.objects.add.player(100, 100, 'player');
+	},
 
 	update: function() {}
 };

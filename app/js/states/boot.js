@@ -17,7 +17,7 @@ window.states.bootState = {
 
 		if (!game.device.desktop) {
 			game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-			document.body.style.backgroundColor = '#000000';
+			document.body.style.backgroundColor = '#aaaaaa';
 
 			// Set the min and max width/height of the game
 			game.scale.minWidth = 250;
@@ -37,7 +37,7 @@ window.states.bootState = {
 
 	createBackgroundColor: function() {
 		//Set the background color of the stage to a light blue color
-		game.stage.backgroundColor = '#000000';
+		game.stage.backgroundColor = '#aaaaaa';
 	},
 
 	loadNextState: function() {

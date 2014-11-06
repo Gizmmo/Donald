@@ -5,8 +5,6 @@ var game = new Phaser.Game(1000, 680, Phaser.AUTO, 'gameDiv');
 //Define our 'global variable'
 game.global = {};
 
-game.chainProperties = {}; //Used For Different Chains (Attack, defense, etc)
-
 //Add all the states
 game.state.add('boot', window.states.bootState);
 game.state.add('load', window.states.loadState);
