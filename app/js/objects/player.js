@@ -23,13 +23,13 @@
 
 		};
 
-		this.create = function () {
+		this.create = function() {
 			this.sprite = game.add.sprite(x, y, texture);
 			this.sprite.scale.x = 0.2;
 			this.sprite.scale.y = 0.2;
 		};
 
-		this.update = function () {
+		this.update = function() {
 
 		};
 

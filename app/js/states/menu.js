@@ -64,7 +64,7 @@ window.states.menuState = {
 		}
 	},
 
-	resetVariables: function () {
+	resetVariables: function() {
 		for (var key in game.global) {
 			game.global[key] = undefined;
 		}
@@ -121,8 +121,8 @@ window.states.menuState = {
 
 		//Create a tween on teh label
 		game.add.tween(nameLabel).to({
-			y: game.world.height * 0.15
-		}, 1000).easing(Phaser.Easing.Bounce.Out)
+				y: game.world.height * 0.15
+			}, 1000).easing(Phaser.Easing.Bounce.Out)
 			.start();
 	},
 

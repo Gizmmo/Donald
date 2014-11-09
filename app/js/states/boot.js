@@ -25,7 +25,7 @@ window.states.bootState = {
 			game.scale.maxWidth = 1000;
 			game.scale.maxHeight = 680;
 
-			
+
 			// Center the game on the screen
 			game.scale.pageAlignHorizontally = true;
 			game.scale.pageAlignVertically = true;
