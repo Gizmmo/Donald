@@ -33,6 +33,10 @@
 
 		};
 
+		this.movePlayer = function() {
+			
+		}
+
 
 		_initalize(); //Call constructor
 	};
